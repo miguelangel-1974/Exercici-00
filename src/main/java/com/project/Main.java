@@ -10,7 +10,6 @@ public class Main extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        // Carga el diseño hecho en SceneBuilder (la ruta empieza en "resources")
         Parent root = FXMLLoader.load(getClass().getResource("/assets/layout.fxml"));
 
         Scene scene = new Scene(root);
